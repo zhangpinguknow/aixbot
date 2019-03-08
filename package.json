@@ -1,0 +1,41 @@
+{
+    "name": "aixbot",
+    "version": "1.1.0",
+    "description": "Robot SDK for XiaoAi Public Platform",
+    "author": "magicbowen <e.wangbo@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/MagicBowen/aixbot#readme",
+    "main": "aixbot.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "engines": {
+        "node": ">=8.11.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/magicbowen/aixbot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MagicBowen/aixbot/issues"
+    },
+    "dependencies": {
+        "debug": "^3.1.0",
+        "delegates": "^1.0.0",
+        "koa-compose": "^4.1.0"
+    },
+    "devDependencies": {
+        "mocha": "^5.2.0",
+        "deep-equal": "^1.0.1",
+        "should": "^13.2.1"
+    },
+    "keywords": [
+        "aixbot",
+        "xiaoai",
+        "xiaomi",
+        "xiaoai public platform api",
+        "bot",
+        "botapi",
+        "bot framework"
+    ]
+}
